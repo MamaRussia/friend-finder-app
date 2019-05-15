@@ -1,7 +1,7 @@
 const friends = {
-    "name": "Paul",
-    "photo": "https://media.giphy.com/media/5xtDarKaxbNRjKhGe2c/giphy.gif",
-    "scores":[
+    name: "Paul",
+    photo: "https://media.giphy.com/media/5xtDarKaxbNRjKhGe2c/giphy.gif",
+    scores:[
         5,
         1,
         4,
@@ -18,3 +18,5 @@ const friends = {
 const matches = [];
 
 console.log(friends);
+
+module.exports = friends;
